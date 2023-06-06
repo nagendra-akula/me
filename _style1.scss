@@ -1,0 +1,91 @@
+$color1: rgb(8, 8, 8);
+$color2: rgb(82, 78, 78);
+$color3: white;
+$p-color: rgb(59, 54, 54);
+$s-color: rgb(243, 247, 240);
+$bg-color: rgb(117, 117, 192);
+$h-color: rgb(199, 98, 98);
+$this-color: cornflowerblue;
+$tb-color: rgb(54, 156, 117);
+
+$img-height:500px;
+$sizeL: 20px;
+$sizeM:30px;
+$sizeI: 90px;
+$width: 100%;
+$ht: 200px;
+$wdiv3: 40%;
+$htt: 400px;
+$tbm: 130px;
+
+
+@mixin flx() {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+@mixin button() {
+    color: black;
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+@mixin fnt() {
+    text-align: justify;
+    word-spacing: 3px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    line-height: 30px;
+    color: rgb(150, 143, 143);
+    text-indent: 40px;
+
+}
+
+@mixin hh() {
+    color: $bg-color;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@mixin table() {
+    border: 1px solid;
+    padding: 8px;
+}
+
+@mixin con() {
+    height: auto;
+    margin-top: 300px;
+    width: $width;
+}
+
+@mixin cont() {
+    height: 700px;
+    width: $width;
+    margin-top: 30px;
+}
+
+@mixin imgg() {
+    width: 50px;
+    height: 40px;
+}
+
+@mixin cd() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin tdr() {
+    border-radius: 10px;
+    width: 100%;
+}
+
+@mixin trr {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
